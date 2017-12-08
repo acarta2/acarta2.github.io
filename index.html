@@ -1,1 +1,204 @@
-Hello World
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+		body {
+			margin:0;
+			background-color: #f2f2f2;
+		}
+		.navbar {
+			overflow: hidden;
+			background-color: #2D3E4F;
+			position: fixed;
+			top: 0;
+			width: 100%;
+			box-shadow: 0px 6px 5px -5px gray;
+		}
+		.navbar a {
+			float: left;
+			display: block;
+			color: #f2f2f2;
+			text-align: center;
+			padding: 16px 16px;
+			text-decoration: none;
+			font-size: 32px;
+		}
+		
+		.navbar a.download {
+			float: right;
+			font-size: 24px;
+		}
+		
+		.navbar a.download:hover {
+			opacity: 0.50;
+		}
+		
+		.navbar a.facebook:hover {
+			opacity: 0.50;
+		}
+		.navbar a.linkedIn:hover {
+			opacity: 0.50;
+		}
+		
+		.navbar a.github:hover {
+			opacity: 0.50;
+		}
+		
+		.navbar a.twitter:hover {
+			opacity: 0.50;
+		}
+		
+		.navbar a.google:hover {
+			opacity: 0.50;
+		}
+		.main {
+			padding: 16px;
+			margin-top: 48px;
+			height: 1000px;
+			color: #2D3E4F;
+		}
+		
+		.left {
+			
+		}
+		
+		.right {
+			text-align: center;
+		}
+		
+		.AboutMeImage {
+			width: 200px;
+			border-radius: 5px;
+			float: left;
+			margin-right: 16px;
+			margin-bottom: 16px;
+		}
+		
+		.navbar a.google {
+			float: right;
+		}
+		
+		.navbar a.facebook {
+			float: right;
+		}
+		
+		.navbar a.linkedIn {
+			float: right;
+		}
+		
+		.navbar a.github {
+			float: right;
+		}
+		
+		.navbar a.twitter {
+			float: right;
+		}
+		
+		.resume {
+			height: 900px;
+		}
+		
+		.bio {
+			float: left;
+		}
+		
+		.contact {
+			float: left;
+		}
+		
+		.bottom {
+			
+		}
+		
+		</style>
+	</head>
+<body>
+
+	<div class = "navbar">
+		<b> 
+			<a href = "#title" class = "title"> Anthony P. Carta </a>
+		</b>
+		
+		<a href = "https://docs.google.com/document/d/10U6FLRw585U9hfMhy9WXs02O7QjnV7iA73o8f2SaD00/edit" class = "google" title = "Download my resume">
+			<img src = "Google.png" style = "height:32px;"/>
+		</a>
+		
+		<a href = "https://www.facebook.com/" class = "facebook" title = "My Facebook">
+			<img src = "Facebook.png" style = "height:32px;"/>
+		</a>
+		
+		<a href = "https://www.linkedin.com/in/anthony-carta-8367ab154/" class = "linkedIn" title = "My Linkedin">
+			<img src = "LinkedIn.png" style = "height:32px;"/>
+		</a>
+		
+		<a href = "https://github.com/acarta2" class = "github" title = "My Github">
+			<img src = "Github.png" style = "height:32px;"/>
+		</a>
+		
+		<a href = "https://twitter.com/Anthonycarta99" class = "twitter" title = "My Twitter">
+			<img src = "Twitter.png" style = "height:30px;"/>
+		</a>
+	</div>
+
+	<div class = "main">
+		<div class = "left"; style = "width: 50%; float: left">
+			<h1 align = "center"> About Me </h1>
+			
+			<div class = "container" style = "height: 50%; float: left">
+			
+				<img src = "IMG_3208.jpg" class = "AboutMeImage"/>
+				
+				<p class = "bio" style="text-indent: 2em;"> My name is Anthony Carta and I am from Clarendon Hills, <br> 
+								  Illinois. I am an avid developer that plans on studying computer <br>
+								  science or computer science and statistics. I started developing when <br> 
+								  I was a junior in high school learning basic Java programming. After that, <br> 
+								  I nurtured my interst through practice and research in my free time. <br>
+								  Currently, I do not have a major, however I plan on majoring in Computer <br> 
+								  Science and Statistics at the University of Illinois. I have  experience  <br>
+								  working with Python, Java, HMTL, and Swift. I most enjoy building <br>
+								  apps and web pages, which is the line of work in computer science <br>
+								  I want to pursue. Outside of computer science my hobbies include <br>
+								  watching and playing sports, drawing, and listening to all kinds of <br>
+								  music. <br><br><br>
+				</p>
+	
+				<p class = "contact"; style = "float: left"> Developer <br>
+					Freshman at the University of Illinois <br>
+					Pre-Engineering in the Division of General Studies <br>
+					107 Woodstock Ave. <br>
+					Clarendon Hills, IL 60514 <br>
+					acarta2@illinois.edu <br>
+				</p>
+				
+			</div>
+			
+			<div class = "bottom"; style = "height: 50%;"> 
+			
+				<h1 align = "center"> Current Project </h1>
+				
+				<img src = "Dezo-1.png" style = "height: 350px; margin-right: 56px; float: left; border-radius: 5px"/>
+				
+				<img src = "Dezo-2.png" style = "height: 350px; border-radius: 5px"/>
+				
+				<img src = "Dezo-3.png" style = "height: 350px; float: right; border-radius: 5px"/>
+				
+				<p> These are some screenshots of the new app I am working on. I began this project last summer and my <br>
+					goal is to finish it by the end of the next summer. This is the first app I have created and it has helped <br>
+					me learn how to create apps in Swift. Stay tuned for updates!
+				</p>
+				
+			</div>
+		</div>
+		
+		<div class = "right" style = "width: 50%; float: right">
+		
+			<h1 align = "center"> Resume </h1>
+			
+			<img src = "Resume.jpg" class = "resume"/>
+			
+		</div>
+
+	</div>
+
+	</body>
+</html>
